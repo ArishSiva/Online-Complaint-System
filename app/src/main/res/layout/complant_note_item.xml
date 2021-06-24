@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:padding="3dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="8dp" app:cardBackgroundColor="@color/light_yellow" app:cardCornerRadius="3dp">
+    <androidx.constraintlayout.widget.ConstraintLayout android:padding="10dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TableLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TableRow android:padding="3dp">
+                <TextView android:textSize="16sp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Id" android:layout_weight="1"/>
+                <TextView android:textSize="16sp" android:id="@+id/note_compliantId" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="3dp" android:text="Compliant" android:layout_weight="5"/>
+            </TableRow>
+            <TableRow android:padding="3dp">
+                <TextView android:textSize="16sp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="2dp" android:layout_marginBottom="3dp" android:text="Name" android:layout_weight="1"/>
+                <TextView android:textSize="16sp" android:id="@+id/note_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="3dp" android:text="Name" android:layout_weight="5"/>
+            </TableRow>
+            <TableRow android:padding="3dp">
+                <TextView android:textSize="16sp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="2dp" android:layout_marginBottom="3dp" android:text="Location" android:layout_weight="1"/>
+                <TextView android:textSize="16sp" android:id="@+id/note_Location" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="3dp" android:text="Location" android:layout_weight="5"/>
+            </TableRow>
+            <TableRow android:padding="3dp">
+                <TextView android:textSize="16sp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="2dp" android:layout_marginBottom="3dp" android:text="Compliant" android:layout_weight="1"/>
+                <TextView android:textSize="16sp" android:id="@+id/note_compliant" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="3dp" android:text="Compliant" android:layout_weight="5"/>
+            </TableRow>
+            <TableRow android:padding="3dp">
+                <TextView android:textSize="16sp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="2dp" android:layout_marginBottom="3dp" android:text="Street" android:layout_weight="1"/>
+                <TextView android:textSize="16sp" android:id="@+id/note_street" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="3dp" android:text="Street" android:layout_weight="5"/>
+            </TableRow>
+            <TableRow android:padding="3dp">
+                <TextView android:textSize="16sp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="2dp" android:layout_marginBottom="3dp" android:text="Priority" android:layout_weight="1"/>
+                <TextView android:textSize="16sp" android:id="@+id/note_priority" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="3dp" android:text="priority" android:layout_weight="5"/>
+            </TableRow>
+            <TableRow android:padding="3dp">
+                <TextView android:textSize="16sp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="2dp" android:layout_marginBottom="3dp" android:text="Status" android:layout_weight="1"/>
+                <TextView android:textSize="16sp" android:textColor="@color/green" android:id="@+id/note_status" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="3dp" android:text="Status" android:layout_weight="5"/>
+            </TableRow>
+        </TableLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>

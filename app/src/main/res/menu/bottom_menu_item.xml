@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/bottomNavigationComplaints"
+        android:icon="@drawable/ic_compliant"
+        android:title="@string/complaints" />
+    <item
+        android:id="@+id/bottomNavigationFeedback"
+        android:icon="@drawable/ic_feedback"
+        android:title="@string/feedback" />
+    <item
+        android:id="@+id/bottomNavigationHistory"
+        android:icon="@drawable/ic_history"
+        android:title="@string/history" />
+</menu>

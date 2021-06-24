@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/searchView"
+        android:icon="@drawable/ic_baseline_search"
+        android:title="@string/searching"
+        app:showAsAction="ifRoom">
+        <menu>
+            <item
+                android:id="@+id/allComplaints"
+                android:title="@string/all_complaints" />
+            <item
+                android:id="@+id/place"
+                android:icon="@drawable/ic_location"
+                android:title="Place">
+                <menu>
+                    <item
+                        android:id="@+id/thiruvellarai"
+                        android:title="@string/thiruvellarai" />
+                    <item
+                        android:id="@+id/Salaippatty"
+                        android:title="@string/salaippatty" />
+                    <item
+                        android:id="@+id/Kalavaippatty"
+                        android:title="@string/kalavaippatty" />
+                    <item
+                        android:id="@+id/Kunnakulam"
+                        android:title="@string/kunnakulam" />
+                    <item
+                        android:id="@+id/manalippallum"
+                        android:title="@string/manalippallum" />
+                </menu>
+            </item>
+            <item
+                android:id="@+id/status"
+                android:icon="@drawable/ic_level"
+                android:title="Status">
+                <menu>
+                    <item
+                        android:id="@+id/apply"
+                        android:title="@string/applied" />
+                    <item
+                        android:id="@+id/process"
+                        android:title="@string/processing" />
+                    <item
+                        android:id="@+id/completed"
+                        android:title="@string/completedd" />
+                </menu>
+            </item>
+        </menu>
+    </item>
+</menu>

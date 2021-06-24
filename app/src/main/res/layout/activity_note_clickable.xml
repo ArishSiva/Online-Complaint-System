@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="right" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageButton android:id="@+id/alert_close_btn" android:background="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:src="@drawable/ic_close" android:layout_marginEnd="10dp" app:layout_constraintEnd_toEndOf="0" app:layout_constraintTop_toTopOf="0"/>
+    <androidx.constraintlayout.widget.ConstraintLayout android:padding="20dp" android:layout_width="match_parent" android:layout_height="match_parent">
+        <ImageButton android:layout_gravity="center" android:id="@+id/postDisplayImage" android:padding="30dp" android:layout_width="370dp" android:layout_height="300dp" android:layout_marginTop="10dp" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0"/>
+        <Button android:textStyle="bold" android:layout_gravity="right" android:id="@+id/completed" android:padding="5dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20dp" android:text="@string/completed" android:layout_marginEnd="25dp" app:layout_constraintEnd_toEndOf="0" app:layout_constraintTop_toBottomOf="@+id/postDisplayImage"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>
